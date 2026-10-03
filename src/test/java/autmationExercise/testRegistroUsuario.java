@@ -1,3 +1,9 @@
+/*
+Antes de realizar cada teste, mudar o email nas linhas 73 e 85
+
+
+
+*/
 package autmationExercise;
 
 import static org.junit.jupiter.api.Assertions.assertTrue;

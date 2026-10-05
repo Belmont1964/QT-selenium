@@ -5,11 +5,19 @@
 	<groupId>br.uff.ic.aulaselenium</groupId>
 	<artifactId>aulaselenium</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-  
+<!--  
 	<properties>
 		<maven.compiler.source>1.8</maven.compiler.source>
 		<maven.compiler.target>1.8</maven.compiler.target>
 		<java.version>8</java.version>
+	</properties>
+-->	
+	<properties>
+	    <maven.compiler.source>25</maven.compiler.source>
+	    <maven.compiler.target>25</maven.compiler.target>
+	    <java.version>25</java.version>
+	    
+	    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
 
 	<dependencies>
@@ -30,10 +38,18 @@
 		</dependency>
 		
 		<!-- Selenium -->
+		<!--
 		<dependency>
 			<groupId>org.seleniumhq.selenium</groupId>
 			<artifactId>selenium-java</artifactId>
 			<version>4.49.0</version>
+		</dependency>
+		-->
+		
+		<dependency>
+			<groupId>org.seleniumhq.selenium</groupId>
+			<artifactId>selenium-java</artifactId>
+			<version>4.50.0</version> 
 		</dependency>
 	</dependencies> 
 	
